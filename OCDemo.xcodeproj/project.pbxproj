@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE4717371FF3FD9600FFEC8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4717361FF3FD9600FFEC8C /* main.m */; };
+		BE4717401FF4061A00FFEC8C /* regex.m in Sources */ = {isa = PBXBuildFile; fileRef = BE47173F1FF4061A00FFEC8C /* regex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		BE4717331FF3FD9600FFEC8C /* OCDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4717361FF3FD9600FFEC8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE47173F1FF4061A00FFEC8C /* regex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = regex.m; path = ../../../../../regex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		BE47173D1FF3FDEB00FFEC8C /* regex */ = {
 			isa = PBXGroup;
 			children = (
+				BE47173F1FF4061A00FFEC8C /* regex.m */,
 			);
 			path = regex;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4717371FF3FD9600FFEC8C /* main.m in Sources */,
+				BE4717401FF4061A00FFEC8C /* regex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
