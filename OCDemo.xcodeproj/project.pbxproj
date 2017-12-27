@@ -57,9 +57,17 @@
 		BE4717351FF3FD9600FFEC8C /* OCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BE47173D1FF3FDEB00FFEC8C /* regex */,
 				BE4717361FF3FD9600FFEC8C /* main.m */,
 			);
 			path = OCDemo;
+			sourceTree = "<group>";
+		};
+		BE47173D1FF3FDEB00FFEC8C /* regex */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = regex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
